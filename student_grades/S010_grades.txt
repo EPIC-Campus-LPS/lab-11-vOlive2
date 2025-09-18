@@ -1,0 +1,6 @@
+S010 - Jonathan Perez Grades
+Math: 71
+Science: 60
+History: 61
+English: 61
+Computer Science: 93

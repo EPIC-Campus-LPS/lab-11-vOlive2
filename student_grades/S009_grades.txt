@@ -1,0 +1,6 @@
+S009 - Patrick Salas Grades
+Math: 78
+Science: 67
+History: 78
+English: 73
+Computer Science: 71

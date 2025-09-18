@@ -1,0 +1,6 @@
+S003 - Nathaniel Hunt Grades
+Math: 77
+Science: 99
+History: 98
+English: 80
+Computer Science: 92

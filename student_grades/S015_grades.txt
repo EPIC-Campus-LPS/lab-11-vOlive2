@@ -1,0 +1,6 @@
+S015 - Joel Mcfarland Grades
+Math: 60
+Science: 81
+History: 95
+English: 81
+Computer Science: 77

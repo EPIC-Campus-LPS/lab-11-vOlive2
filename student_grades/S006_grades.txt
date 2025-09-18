@@ -1,0 +1,6 @@
+S006 - Lori Wilson Grades
+Math: 90
+Science: 100
+History: 97
+English: 65
+Computer Science: 83

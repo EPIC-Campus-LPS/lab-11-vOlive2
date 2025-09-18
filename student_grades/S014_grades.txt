@@ -1,0 +1,6 @@
+S014 - Joseph Lawson Grades
+Math: 80
+Science: 91
+History: 77
+English: 91
+Computer Science: 76

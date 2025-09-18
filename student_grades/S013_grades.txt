@@ -1,0 +1,6 @@
+S013 - Victor Mitchell Grades
+Math: 63
+Science: 86
+History: 90
+English: 83
+Computer Science: 89
