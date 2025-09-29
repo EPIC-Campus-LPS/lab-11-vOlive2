@@ -10,5 +10,5 @@ public class Song {
 	public void setAuthor(String a) {author = a;}
 	public int getYear() {return year;}
 	public void setYear(int y) {year = y;}
-	@Override public String toString() {return name+", "+author+", "+year;}
+	@Override public String toString() {return "\t"+name+", "+author+", "+year+"\n";}
 }

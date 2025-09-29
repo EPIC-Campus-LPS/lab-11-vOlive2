@@ -13,5 +13,5 @@ public class Playlist {
 	public ArrayList<Song> remove(int i) {content.remove(i);return content;}
 	public ArrayList<Song> add(Song s) {content.add(s);return content;}
 
-	@Override public String toString() {return name+": \n"+content.toString();}
+	@Override public String toString() {return "\n"+name+": \n"+content.toString();}
 }
