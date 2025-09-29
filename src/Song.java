@@ -2,6 +2,7 @@ public class Song {
 	private String name;
 	private String author;
 	private int year;
+	Song (String n, String a, int y) {name = n;author = a;year = y;}
 	
 	public String getName() {return name;}
 	public void setName(String n) {name = n;}
