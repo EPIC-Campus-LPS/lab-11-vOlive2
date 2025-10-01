@@ -5,7 +5,7 @@ public class Playlist {
 	private ArrayList<Song> content = new ArrayList<>();
 	Playlist (String n, ArrayList<Song> c) {name = n;content = c;}
 
-	public String getName() {return name;}
+	public String getName() {return name+"\n";}
 	public void setName(String n) {name = n;}
 	public ArrayList<Song> getContent() {return content;}
 	public void setContent(ArrayList<Song> c) {content = c;}
@@ -14,4 +14,6 @@ public class Playlist {
 	public ArrayList<Song> add(Song s) {content.add(s);return content;}
 
 	@Override public String toString() {return "\n"+name+": \n"+content.toString();}
+	public String toName() {return "\n"+name;}
+
 }
