@@ -64,14 +64,15 @@ public class MusicRunner {
 		System.out.print(playlists.get(input-1)+"\n");
 		System.out.print("What do you want to do? \n"
 				+ "(A) - Add a song\n"
-				+ "(B) - Remove a song\n");
-		scan.next();
-		String input2 = scan.nextLine().toUpperCase();
+				+ "(B) - Remove a song\n\r");
+		String input2 = scan.next().toUpperCase();		
 		if(input2.equals("A")) {
-			System.out.print("<Song Name>, <Artist>, <year>");
+			System.out.println("<Song Name>, <Artist>, <year>");
+			String l = scan.next();
 			String line = scan.nextLine();
+			System.out.println(line);
 			String[] arr = line.split(", ");
-			Song s = new Song(arr[0], arr[1], Integer.parseInt(arr[2]));
+			Song s = new Song(l.substring(0, l.length()-1), arr[0].substring(1), Integer.parseInt(arr[1]));
 			playlists.get(input-1).add(s);
 			System.out.print("\n" + playlists.get(input-1) + "\n");
 		}
