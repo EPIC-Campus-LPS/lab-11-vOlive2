@@ -11,7 +11,10 @@ public class StudentRunner {
 		int m=0, s=0, h=0, e=0, c=0;
 		for(int i = 0; i < 16; i++) {
 			m+=kids[i].getMath();
-			m+=kids[i].getMath();
+			s+=kids[i].getScience();
+			h+=kids[i].getHistory();
+			e+=kids[i].getEnglish();
+			c+=kids[i].getCom();
 		}
 	}
 	public static void get(String filename, int i) throws IOException {
