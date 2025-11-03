@@ -13,8 +13,8 @@ public class Student {
 		Computer = c;
 	}
 	public int getMath() {return Math;}
-	public int getMath() {return Science;}
-	public int getMath() {return History;}
-	public int getMath() {return English;}
-	public int getMath() {return Computer;}
+	public int getScience() {return Science;}
+	public int getHistory() {return History;}
+	public int getEnglish() {return English;}
+	public int getCom() {return Computer;}
 }
