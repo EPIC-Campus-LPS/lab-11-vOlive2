@@ -24,5 +24,6 @@ public class StudentRunner {
 			kids[i] = new Student(m, s, h, e, c);
 		}
 		scan.close();
+		
 	}
 }
