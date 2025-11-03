@@ -16,6 +16,11 @@ public class StudentRunner {
 			e+=kids[i].getEnglish();
 			c+=kids[i].getCom();
 		}
+		System.out.println("Math : " + m/16.0);
+		System.out.println("Science : " + s/16.0);
+		System.out.println("History : " + h/16.0);
+		System.out.println("English : " + e/16.0);
+		System.out.println("Computer Science" + c/16.0);
 	}
 	public static void get(String filename, int i) throws IOException {
 		File f = new File(filename);
