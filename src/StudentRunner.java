@@ -5,7 +5,7 @@ public class StudentRunner {
 	static Student[] kids = new Student[16];
 	public static void main(String[] args) throws IOException {
 		for(int i = 1; i <= 16; i++) {
-			String filename = "S000"+i+"_grades.txt";
+			String filename = "student_grades/S00"+i+"_grades.txt";
 			get(filename, i);
 		}
 		int m=0, s=0, h=0, e=0, c=0;
