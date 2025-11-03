@@ -4,7 +4,15 @@ import java.io.IOException;
 public class StudentRunner {
 	static Student[] kids = new Student[16];
 	public static void main(String[] args) throws IOException {
-		
+		for(int i = 1; i <= 16; i++) {
+			String filename = "S000"+i+"_grades.txt";
+			get(filename, i);
+		}
+		int m=0, s=0, h=0, e=0, c=0;
+		for(int i = 0; i < 16; i++) {
+			m+=kids[i].getMath();
+			m+=kids[i].getMath();
+		}
 	}
 	public static void get(String filename, int i) throws IOException {
 		File f = new File(filename);
