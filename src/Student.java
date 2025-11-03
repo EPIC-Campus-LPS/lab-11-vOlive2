@@ -17,4 +17,6 @@ public class Student {
 	public int getHistory() {return History;}
 	public int getEnglish() {return English;}
 	public int getCom() {return Computer;}
+	@Override public String toString() {return "Student{" + Math +", "+ Science + ", " + History + ", " + English + ", " + Computer + "}";
+	}
 }
